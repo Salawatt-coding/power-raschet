@@ -1,0 +1,9 @@
+input, table {
+  margin-bottom: 5px;
+}
+
+
+table, td {
+    border: 1px solid black;
+    padding: 5px;
+}
