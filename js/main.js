@@ -27,6 +27,6 @@ function calculate_smth() {
     cell01.textContent = value01;
     cell02.textContent = value02;
     cell03.textContent = value03;
-    cell04.textContent = 3600 * parseInt(value03, 10) / parseInt(value01, 10) / parseInt(value02, 10);
+    cell04.textContent = (1000 * 3600 * parseInt(value03, 10) / parseInt(value01, 10) / parseInt(value02, 10)).toFixed(2);
 
 }
