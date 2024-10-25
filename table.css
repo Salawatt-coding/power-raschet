@@ -20,7 +20,7 @@ label {
 }
 
 input[type="number"] {
-    width: 100%; /* Изменено на 100% для правильного отображения */
+    width: 20%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
