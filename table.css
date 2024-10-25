@@ -13,19 +13,20 @@ h1 {
 }
 
 label {
-    font-size: 24px;
-    width: 50%;
+    font-size: 30px;
+    width: 60%;
     display: block;
     margin-bottom: 10px;
     margin: auto;
 }
 
 input[type="number"] {
-    width: 10%; 
+    width: 10%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    font-size: 28px;
 }
 
 /* Стили для таблицы */
