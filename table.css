@@ -48,7 +48,8 @@ button {
     border: none;
     padding: 10px 15px;
     cursor: pointer;
-    width: 17.1%; /* Ширина кнопки */
+    font-size: 24px;
+    width: 26.4%; /* Ширина кнопки */
     margin: 10px auto; /* Центрирование кнопки */
     display: block; /* Блочный элемент для центрирования */
 }
@@ -62,7 +63,7 @@ button:hover {
     h1 {
         font-size: 20px;
     }
-    input[type="number"], button {
+    input[type="number"] {
         font-size: 36px;
         padding: 12px;
     }
@@ -72,7 +73,7 @@ button:hover {
     h1 {
         font-size: 18px;
     }
-    input[type="number"], button {
+    input[type="number"] {
         font-size: 30px;
         padding: 10px;
     }
