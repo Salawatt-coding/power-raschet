@@ -1,0 +1,76 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+/* Заголовки */
+h1 {
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+}
+
+/* Формы */
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Поля ввода */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+/* Таблица */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Кнопки */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50; /* Зеленый фон */
+    color: white; /* Белый текст */
+    border: none; /* Без границы */
+    cursor: pointer; /* Указатель при наведении */
+}
+
+button:hover {
+    background-color: #45a049; /* Темнее при наведении */
+}
+
+/* Параграфы */
+p {
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.2em; /* Уменьшаем размер заголовка на мобильных устройствах */
+    }
+
+    button {
+        font-size: 0.9em; /* Уменьшаем размер текста на кнопках */
+    }
+
+    p {
+        font-size: 0.8em; /* Уменьшаем размер текста в параграфах */
+    }
+}
